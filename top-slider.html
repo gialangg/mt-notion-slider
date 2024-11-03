@@ -15,10 +15,6 @@
   padding: 0;
 }
 
-iframe {
-  boder-radius: 10px;
-}
-
 body {
   font-family: "Lexend", sans-serif;
   background-color: #362a2b;
@@ -45,22 +41,26 @@ body {
 
 .slide.current {
   opacity: 1;
+  boder-radius: 10px;
 }
 
 
 .slide:first-child {
   background: url("m1.jpg") no-repeat
     center top/cover;
+  boder-radius: 10px;
 }
 
 .slide:nth-child(2) {
   background: url("m2.jpg") no-repeat
     center top/cover;
+  boder-radius: 10px;
 }
 
 .slide:nth-child(3) {
   background: url("2.jpg") no-repeat
     center top/cover;
+  boder-radius: 10px;
 }
 
 
@@ -113,7 +113,7 @@ body {
 
 <body>
   <!-- partial:index.partial.html -->
-  <div class="slider">
+  <div class="slider iframe">
     <div class="slide current"></div>
     <div class="slide"></div>
     <div class="slide"></div>
